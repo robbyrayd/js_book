@@ -1,1 +1,0 @@
-//JavaScript was created at Netscape Communications by Brendan Eich in 1995
