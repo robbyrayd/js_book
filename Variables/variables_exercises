@@ -1,0 +1,55 @@
+//#1
+//Write a program named greeter.js that greets 'Victor' three times. 
+//Your program should use a variable and not hard code the string 
+//value 'Victor' in each greeting. Here's an example run of the program:
+//> node greeter.js
+
+//#2
+//Write a program named age.js that includes someone's age and then calculates
+// and reports the future age in 10, 20, 30 and 40 years. Below is the output for someone 20 years old.
+// >node age.js
+
+//#3
+//What happens when you run the following program? Why do we get that result?
+//{
+//  let foo = 'bar';
+//}
+//> undefined
+//console.log(foo);
+//> foo is not defined
+
+//#4
+//What happens when you run the following code? Why?
+//const NAME = 'Victor';
+//console.log('Good Morning, ' + NAME);
+//console.log('Good Afternoon, ' + NAME);
+//console.log('Good Evening, ' + NAME);
+
+//NAME = 'Joe';
+//console.log('Good Morning, ' + NAME);
+//console.log('Good Afternoon, ' + NAME);
+//console.log('Good Evening, ' + NAME);
+//> const NAME already assigned to 'Victor'. Constant variables cannot change their value
+//> You can't reassign a constant after defining it.
+
+//#5
+//Take a look at this code snippet:
+//let foo = 'bar';
+//{
+//  let foo = 'qux';
+//}
+
+//console.log(foo);
+//> program logs bar
+//> the 2nd variable of foo, it's value does not leave the scope. the original initialization of foo and it's value remain intact
+
+//#6
+//Will this program produce an error when run? Why or why not?
+//const FOO = 'bar';
+//{
+//  const FOO = 'qux';
+//}
+
+//console.log(FOO);
+//> no error. the two const variables are separated by scope
+
